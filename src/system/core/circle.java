@@ -1,19 +1,22 @@
 package system.core;
 
-public class circle {
+import java.awt.Frame;
 
-	//singlton
-	private static circle singlton;
-	
-	private circle() {
-		singlton = new circle();
+import javax.swing.JFrame;
+
+public class circle {
+	public static void main(String[] args) {
+		JFrame frame = (JFrame) new Frame();
+		System.out.println();
+		System.out.println();
+
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
 	}
-	
-	public circle getinstance() {
-		if (singlton == null) {
-			singlton = new circle();
-			return singlton;
-		}
-		return singlton;
-	}
+
 }
